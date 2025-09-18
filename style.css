@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #e6f6ff; /* sky blue */
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+#gameCanvas {
+  display: block;
+  margin: 0 auto;
+  image-rendering: pixelated;
+  max-width: 100vw;
+  height: auto;
+  outline: none;
+}
+
+/* Center canvas vertically on larger screens */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
